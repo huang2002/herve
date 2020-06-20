@@ -65,6 +65,9 @@ program
         app.listen(port, () => {
             console.log(`Server started at port ${port}`);
             console.log('(Hit Ctrl-C to stop)');
+            if (args.options.has('-l')) {
+                console.log(); // leave a new line before logs
+            }
         });
 
     })
