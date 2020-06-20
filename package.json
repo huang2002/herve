@@ -1,6 +1,6 @@
 {
   "name": "herve",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A cli server based on `herver`.",
   "bin": "./index.js",
   "author": "3h",
@@ -25,5 +25,8 @@
   "dependencies": {
     "3h-cli": "^3.0.0",
     "herver": "^0.6.0"
-  }
+  },
+  "files": [
+    "./index.js"
+  ]
 }
