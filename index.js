@@ -49,8 +49,9 @@ program
             join(process.cwd(), args.actions[0] || '.'),
             {
                 defaultPages: (
-                    args.getOption('-d')
-                    || createStaticHandler.defaults.defaultPages
+                    args.options.has('-d')
+                        ? args.getOption('-d')
+                        : createStaticHandler.defaults.defaultPages
                 )
             }
         );
