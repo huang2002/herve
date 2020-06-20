@@ -1,6 +1,6 @@
 {
   "name": "herve",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A cli server based on `herver`.",
   "bin": "./index.js",
   "author": "3h",
