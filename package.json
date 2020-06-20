@@ -1,0 +1,29 @@
+{
+  "name": "herve",
+  "version": "0.1.0",
+  "description": "A cli server based on `herver`.",
+  "bin": "./index.js",
+  "author": "3h",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "node ./index.js test -d home.html bar.html -l",
+    "help": "node ./index.js -h"
+  },
+  "repository": "huang2002/herve",
+  "keywords": [
+    "cli",
+    "server",
+    "serve",
+    "herver",
+    "http",
+    "3h"
+  ],
+  "devDependencies": {
+    "@types/node": "^13.7.0"
+  },
+  "dependencies": {
+    "3h-cli": "^3.0.0",
+    "herver": "^0.6.0"
+  }
+}
