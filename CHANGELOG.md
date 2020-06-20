@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3
+
+- Improve output
+
 ## 0.1.2
 
 - Fix default pages
